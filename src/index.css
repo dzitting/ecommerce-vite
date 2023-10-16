@@ -1,5 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;600&family=Raleway:wght@300;400&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: grey;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Noto Serif Display', serif;
+}
+
+span, label, a, p, button {
+  font-family: 'Raleway', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+  padding: .5rem 1rem;
+  background-color: #ffffff25;
+  border-radius: 5px;
+  border: none;
+  transition: linear .2s;
+}
+
+button:hover {
+  background-color: #ffffff50;
+  border: solid 1px #ffffff;
+  transition: linear .2s;
+  color: #4d4d4d
+}
+
+input {
+  padding: .5rem 1rem;
+  background-color: #ffffff25;
+  border: none;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+  background-color: #ffffff50;
+}
+
+a {
+  text-decoration: none;
+  color: #4d4d4d;
+  transition: linear .2s;
+}
+
+a:hover {
+  color: #000;
+  transition: linear .2s;
+  transform: scale(1.1);
+}
+
+a:active, a:focus {
+  color: #000;
+  transition: linear .2s;
 }

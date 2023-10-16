@@ -1,0 +1,136 @@
+{
+    "products":  [
+        {
+            "id": 1,
+            "name": "Men's T-Shirt",
+            "category": "T-Shirts",
+            "price": 19.99,
+            "description": "A nice T-Shirt",
+            "image": "https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886013_1280.png",
+            "rating": {
+                "rate": 4,
+                "count": 100
+            },
+            "amountAvailable": 100,
+            "amountSold": 0,
+            "onSale": false,
+            "salePrice": null,
+            "tags": [
+                "T-Shirts",
+                "Mens"
+            ],
+            "inStock": true,
+            "featured": true
+        },
+        {
+            "id": 2,
+            "name": "Women's T-Shirt",
+            "category": "T-Shirts",
+            "price": 19.99,
+            "description": "A nice T-Shirt",
+            "image": "https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886013_1280.png",
+            "rating": {
+                "rate":4,
+                "count": 100
+            },
+            "amountAvailable": 100,
+            "amountSold": 0,
+            "onSale": true,
+            "salePrice": 12.97,
+            "tags": [
+                "T-Shirts",
+                "Womens"
+            ],
+            "inStock": true,
+            "featured": true
+        },
+        {
+            "id": 3,
+            "name": "Kids T-Shirt",
+            "category": "T-Shirts",
+            "price": 19.99,
+            "description": "A nice T-Shirt",
+            "image": "https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886013_1280.png",
+            "rating": {
+                "rate": 4,
+                "count": 100
+            },
+            "amountAvailable": 100,
+            "amountSold": 67,
+            "onSale": false,
+            "salePrice": null,
+            "tags": [
+                "T-Shirts",
+                "Kids"
+            ],
+            "inStock": true,
+            "featured": true
+        },
+        {
+            "id": 4,
+            "name": "Running Shoes",
+            "category": "Shoes",
+            "price": 49.99,
+            "description": "High-performance running shoes for athletes.",
+            "image": "https://cdn.pixabay.com/photo/2013/07/12/18/20/shoes-153310_1280.png",
+            "rating": {
+                "rate": 4.5,
+                "count": 80
+            },
+            "amountAvailable": 50,
+            "amountSold": 20,
+            "onSale": true,
+            "salePrice": 39.99,
+            "tags": [
+                "Shoes",
+                "Athletic"
+            ],
+            "inStock": true,
+            "featured": false
+        },
+        {
+            "id": 5,
+            "name": "High Heels",
+            "category": "Shoes",
+            "price": 39.99,
+            "description": "Elegant high heels for special occasions.",
+            "image": "https://images.pexels.com/photos/3782789/pexels-photo-3782789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "rating": {
+                "rate": 4.0,
+                "count": 60
+            },
+            "amountAvailable": 30,
+            "amountSold": 10,
+            "onSale": false,
+            "salePrice": null,
+            "tags": [
+                "Shoes",
+                "Women's"
+            ],
+            "inStock": true,
+            "featured": true
+        },
+        {
+            "id": 6,
+            "name": "Summer Dress",
+            "category": "Dresses",
+            "price": 29.99,
+            "description": "Lightweight summer dress for a casual look.",
+            "image": "https://images.pexels.com/photos/4545133/pexels-photo-4545133.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "rating": {
+                "rate": 4.2,
+                "count": 70
+            },
+            "amountAvailable": 45,
+            "amountSold": 15,
+            "onSale": true,
+            "salePrice": 24.99,
+            "tags": [
+                "Dresses",
+                "Women's"
+            ],
+            "inStock": true,
+            "featured": false
+        }
+    ]
+}

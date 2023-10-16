@@ -6,6 +6,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Search from './routes/search.jsx';
+import Home from './routes/home.jsx';
+import Category from './routes/category.jsx';
+import Categories from './routes/categories.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +19,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "home",
-        element: <h1>Home</h1>,
+        element: <Home />,
       },
       {
         path: "about",
@@ -24,13 +28,23 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <h1>Contact</h1>,
+      },
+      {
+        path: "search",
+        element: <Search />,
+      },
+      {
+        path: 'categories',
+        element: <Categories />,
+        children: [
+          {
+            path: ":category",
+            element: <Category />,
+          }
+        ]
       }
     ]
   },
-  {
-    path: "/cart",
-    element: <h1>Cart</h1>,
-  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
