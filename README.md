@@ -107,7 +107,7 @@ This project was built primarily with:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get started you may visit either the deployed link [here](https://example.org)
+To get started you may visit either the deployed link [here](https://clothwire.netlify.app/home)
 
 Or download the files and open them in your code editor. Make sure to use `npm install` for the appropriate dependencies.
 
