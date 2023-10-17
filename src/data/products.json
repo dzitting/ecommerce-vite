@@ -209,6 +209,195 @@
             "featured": true,
             "colors": ["White", "Black", "Red"],
             "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 15,
+            "name": "Slim Fit Jeans",
+            "category": "Pants",
+            "price": 39.99,
+            "description": "Stylish and comfortable slim fit jeans for men.",
+            "image": "https://images.pexels.com/photos/2343661/pexels-photo-2343661.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "rating": {
+                "rate": 4.4,
+                "count": 60
+            },
+            "amountAvailable": 55,
+            "amountSold": 5,
+            "onSale": false,
+            "salePrice": null,
+            "tags": ["Pants", "Womens", "Casual", "Jeans"],
+            "inStock": true,
+            "featured": true,
+            "colors": ["Blue", "Black", "Gray"],
+            "sizes": ["28", "30", "32", "34"]
+        },
+        {
+            "id": 16,
+            "name": "Leather Biker Jacket",
+            "category": "Jackets",
+            "price": 129.99,
+            "description": "Classic leather biker jacket for a rugged look.",
+            "image": "https://images.pexels.com/photos/18339049/pexels-photo-18339049/free-photo-of-man-in-painted-on-back-biker-jacket.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "rating": {
+                "rate": 4.8,
+                "count": 45
+            },
+            "amountAvailable": 30,
+            "amountSold": 10,
+            "onSale": true,
+            "salePrice": 109.99,
+            "tags": ["Jackets", "Mens"],
+            "inStock": true,
+            "featured": true,
+            "colors": ["Black", "Brown"],
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 17,
+            "name": "Lace Blouse",
+            "category": "Blouses",
+            "price": 49.99,
+            "description": "Elegant lace blouse with a feminine touch.",
+            "image": "https://images.pexels.com/photos/12980727/pexels-photo-12980727.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "rating": {
+                "rate": 4.5,
+                "count": 55
+            },
+            "amountAvailable": 35,
+            "amountSold": 5,
+            "onSale": false,
+            "salePrice": null,
+            "tags": ["Blouses", "Womens", "Formal"],
+            "inStock": true,
+            "featured": false,
+            "colors": ["White", "Blue", "Pink"],
+            "sizes": ["S", "M", "L"]
+        },
+        {
+            "id": 18,
+            "name": "Graphic Print T-Shirt",
+            "category": "T-Shirts",
+            "price": 24.99,
+            "description": "Cool graphic print t-shirt for a casual look.",
+            "image": "https://images.pexels.com/photos/9954985/pexels-photo-9954985.png?auto=compress&cs=tinysrgb&w=600",
+            "rating": {
+                "rate": 4.3,
+                "count": 70
+            },
+            "amountAvailable": 60,
+            "amountSold": 10,
+            "onSale": true,
+            "salePrice": 19.99,
+            "tags": ["T-Shirts", "Mens", "Womens", "Casual"],
+            "inStock": true,
+            "featured": false,
+            "colors": ["Black", "White", "Red"],
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 19,
+            "name": "Cozy Hoodie",
+            "category": "Hoodies",
+            "price": 34.99,
+            "description": "Warm and cozy hoodie for chilly days.",
+            "image": "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "rating": {
+                "rate": 4.7,
+                "count": 40
+            },
+            "amountAvailable": 50,
+            "amountSold": 10,
+            "onSale": false,
+            "salePrice": null,
+            "tags": ["Hoodies", "Unisex", "Winter"],
+            "inStock": true,
+            "featured": true,
+            "colors": ["Gray", "Navy", "Burgundy"],
+            "sizes": ["XS", "S", "M", "L"]
+        },
+        {
+            "id": 20,
+            "name": "Formal Blazer",
+            "category": "Formal Wear",
+            "price": 79.99,
+            "description": "Elegant formal blazer for a sophisticated look.",
+            "image": "https://images.pexels.com/photos/7252035/pexels-photo-7252035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "rating": {
+                "rate": 4.6,
+                "count": 30
+            },
+            "amountAvailable": 25,
+            "amountSold": 5,
+            "onSale": false,
+            "salePrice": null,
+            "tags": ["Formal Wear", "Mens", "Business"],
+            "inStock": true,
+            "featured": true,
+            "colors": ["Black", "Navy", "Charcoal"],
+            "sizes": ["38R", "40R", "42R", "44R"]
+        },
+        {
+            "id": 21,
+            "name": "Floral Maxi Skirt",
+            "category": "Skirts",
+            "price": 29.99,
+            "description": "Beautiful floral maxi skirt for a breezy summer look.",
+            "image": "https://images.pexels.com/photos/5324348/pexels-photo-5324348.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "rating": {
+                "rate": 4.4,
+                "count": 35
+            },
+            "amountAvailable": 40,
+            "amountSold": 5,
+            "onSale": true,
+            "salePrice": 24.99,
+            "tags": ["Skirts", "Womens", "Summer"],
+            "inStock": true,
+            "featured": true,
+            "colors": ["Blue Floral", "Pink Floral", "Yellow Floral"],
+            "sizes": ["S", "M", "L"]
+        },
+        {
+            "id": 22,
+            "name": "Sporty Polo Shirt",
+            "category": "T-Shirts",
+            "price": 29.99,
+            "description": "Sporty polo shirt for a casual and active lifestyle.",
+            "image": "https://images.pexels.com/photos/5950117/pexels-photo-5950117.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "rating": {
+                "rate": 4.2,
+                "count": 50
+            },
+            "amountAvailable": 60,
+            "amountSold": 10,
+            "onSale": true,
+            "salePrice": 24.99,
+            "tags": ["T-Shirts", "Unisex", "Sportswear"],
+            "inStock": true,
+            "featured": false,
+            "colors": ["Navy", "Green", "Red"],
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 23,
+            "name": "Cozy Pullover Hoodie",
+            "category": "Hoodies",
+            "price": 39.99,
+            "description": "Ultra-soft pullover hoodie for maximum comfort.",
+            "image": "https://images.pexels.com/photos/6974777/pexels-photo-6974777.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "rating": {
+                "rate": 4.8,
+                "count": 45
+            },
+            "amountAvailable": 35,
+            "amountSold": 10,
+            "onSale": false,
+            "salePrice": null,
+            "tags": ["Hoodies", "Unisex", "Fall"],
+            "inStock": true,
+            "featured": false,
+            "colors": ["Gray", "Black", "Burgundy"],
+            "sizes": ["XS", "S", "M", "L"]
         }
     ]
 }

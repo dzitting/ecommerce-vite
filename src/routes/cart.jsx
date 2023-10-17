@@ -1,18 +1,18 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { removeItemFromCart, selectCart } from "../store/Cart/cartSlice";
-import Sale from "../components/Sale";
+import Featured from "./featured";
 
 const Cart = () => {
   const cart = useSelector(selectCart);
   const dispatch = useDispatch();
   return (
     <div style={{ width: "100%", height: "100%", overflowX: "hidden" }}>
-      <h1 style={{width: "100%", transform: "translate(50%, 50%)" }}>Cart</h1>
+      <h1 style={{textAlign: 'center', color: 'white'}}>Cart</h1>
       {cart.items.length > 0 ? (
-        <div>
+        <div style={{height: '100%'}}>
           {cart.items.map((item) => (
-            <div key={item.id} style={{ width:'70%', display: "flex", gap: "1rem", margin: '2rem', justifyContent: 'space-between' }}>
+            <div key={item.id} style={{height: '100%', width:'70%', display: "flex", gap: "1rem", margin: '2rem', justifyContent: 'space-between' }}>
               <figure
                 style={{
                   width: "40%",
@@ -24,12 +24,12 @@ const Cart = () => {
                 }}
               >
                 <img
-                  style={{ width: "100%", objectFit: "contain", objectPosition: "center" }}
+                  style={{ width: "100%", objectFit: "cover", objectPosition: "center center" }}
                   src={item.image}
                   alt={item.name}
                 />
               </figure>
-              <div>
+              <div style={{height: '30%'}}>
                 <p>{item.name}</p>
                 <p>Quantity: {item.quantity}</p>
                 {item.selectedColor && item.selectedSize ? (
@@ -46,15 +46,15 @@ const Cart = () => {
               </div>
             </div>
           ))}
-          <div style={{ position: 'absolute', top: '7.5rem', right: '5rem', backgroundColor: 'white', padding: '1rem', boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px', cursor: 'arrow' }}>
+          <div style={{ position: 'absolute', top: '10rem', right: '5rem', backgroundColor: 'white', padding: '1rem', boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px', cursor: 'arrow' }}>
             <p style={{userSelect: 'none'}}>Total Price: {cart.totalCartPrice}</p>
           </div>
         </div>
       ) : (
         <div>
-          <p>Cart is empty</p>
-          <h2>Check out some featured items!</h2>
-          <Sale />
+          <p style={{textAlign: 'center'}}>Cart is empty</p>
+          <h2 style={{textAlign: 'center'}}>Check out some featured items!</h2>
+          <Featured />
         </div>
       )}
     </div>

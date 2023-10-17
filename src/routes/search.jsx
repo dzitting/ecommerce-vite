@@ -7,27 +7,27 @@ import {products} from "../data/products";
 
 const Search = () => {
   const [results, setResults] = useState([]);
-  const query = new URLSearchParams(location.search).get("q");
+  const query = new URLSearchParams(location.search).get("q").toLowerCase();
 
   useEffect(() => {
-    setResults(products?.filter((product) => product.name.toLowerCase().includes(query)));
+    setResults(products?.filter((product) => product.name.toLowerCase().includes(query) || product.category.toLowerCase().includes(query) || product.tags.map(tag => tag.toLowerCase()).includes(query)));
   }, [query]);
   
   return (
     <div id="product-results"
-      style={{ display: "flex", height: "100vh", flexDirection: "row-reverse" }}
+      style={{ display: "flex", height: "100%", flexDirection: "row-reverse" }}
     >
-      <div
-        style={{ width: "100%", height: "100%" }}
-      >
-        <p>Displaying results for '{query}'</p>
-        {results && 
-          results.map((result, index) => {
-            return <ResultCard key={index} result={result} />
-          })
-        }
+      <p style={{position: 'absolute', top: '5rem', left: '15rem', fontSize: '1.5rem'}}>Displaying results for '{query}'</p>
+      <div style={{width: '100%', height: '100%', display: 'flex', justifyContent: 'flex-start', alignItems: 'start', flexDirection: 'row', gap: '1rem', margin: '0 auto'}}>
+        <Aside />
+        <div style={{width: '100%', height: '100%', display: 'flex', justifyContent: 'start', alignItems: 'start', flexDirection: 'row', flexWrap: 'wrap', gap: '1rem', margin: '0 auto'}}>
+          {
+            results.map(product => (
+              <ResultCard key={product.id} result={product} />
+            ))
+          }
+        </div>
       </div>
-      <Aside />
     </div>
   );
 };

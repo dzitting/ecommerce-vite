@@ -12,6 +12,7 @@ import Product from "./components/Product.jsx";
 import { store } from "./store/store";
 import { Provider } from "react-redux";
 import Cart from "./routes/cart.jsx";
+import Featured from "./routes/featured.jsx";
 
 const router = createBrowserRouter([
   {
@@ -47,7 +48,7 @@ const router = createBrowserRouter([
       },
       {
         path: "featured",
-        element: <h1>Featured</h1>,
+        element: <Featured />,
       },
       {
         path: "products",

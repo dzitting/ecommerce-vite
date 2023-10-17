@@ -11,7 +11,7 @@ const Category = () => {
         <div style={{width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
             <h1>{category}</h1>
             <p>Enjoy the selection of {category}</p>
-            <div style={{width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', flexWrap: 'wrap', gap: '1rem'}}>
+            <div style={{width: '90%', height: '100%', display: 'flex', justifyContent: 'flex-start', alignItems: 'center', flexDirection: 'row', flexWrap: 'wrap', gap: '1rem', margin: '0 auto'}}>
                 {
                     filteredProducts.map(product => (
                         <ResultCard key={product.id} result={product} />

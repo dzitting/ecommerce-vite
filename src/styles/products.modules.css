@@ -1,0 +1,25 @@
+.products {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: max-content;
+    height: 3rem;
+    background: black;
+    color: white;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

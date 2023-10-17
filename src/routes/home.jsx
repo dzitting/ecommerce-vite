@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/home.modules.css";
+import "../styles/home.modules.css";
 import Sale from "../components/Sale";
 
 const Home = () => {
