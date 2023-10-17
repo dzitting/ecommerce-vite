@@ -6,10 +6,11 @@ import { categories } from "./data/categories";
 import { selectCart } from "./store/Cart/cartSlice";
 import { useSelector } from "react-redux";
 import { useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router";
 
 function App() {
   if (window.location.pathname === "/") {
-    window.location.pathname = "/home";
+    navigate('/home');
   }
   const cart = useSelector(selectCart);
   const [searchParams, setSearchParams] = useSearchParams();
