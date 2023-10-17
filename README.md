@@ -74,18 +74,19 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div>
+    <p>ClothWire Ecommerce</p>
+    <img src='./public/page.jpg' alt='example'>
+</div>
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This project was made as a portfolio project. It is made to replicate the ecommerce experience with a functioning cart, search component, and various categories.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Import Aspects:
+* Data is loaded from a JSON file that does not reflect an real commerce/merchandise.
+* Images were sourced through [Pexels](https://pexels.com/).
+* Routing was done through React Router.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Users can experience a brief online shopping experience with the dynamic cart which updates with each item added.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,11 +94,11 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This project was built primarily with:
 
 * [![React][React.js]][React-url]
-* [![Vite][Vite]][React-url]
-* [![Redux][Vite]][React-url]
+* [![Vite][Vite.js]][React-url]
+* [![Redux][Redux]][Redux-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,8 +107,13 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get started you may visit either the deployed link [here](https://example.org)
+
+Or download the files and open them in your code editor. Make sure to use `npm install` for the appropriate dependencies.
+
+You can then run the dev environment with
+
+`npm run dev`
 
 ### Prerequisites
 
@@ -119,20 +125,19 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_If you'd like to copy this repo:_
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/dzitting/ecommerce-vite.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Enter your API in `config.js`
+   ```npm
+   npm run dev
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -142,9 +147,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+User should navigate the website as they would a traditional ecommerce shop. There is a search component that users may search products. Use the `products` link to display all products. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Or-- use the categories to select specific items from catgories.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,13 +160,8 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Add Changelog
 - [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
+- [x] Add Additional Templates w/ Examples
 - [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,36 +170,27 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+_No contributions at this time_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- LICENSE -->
-## License
+<!-- ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Denise Zitting - [@dzitting](http://github.com/dzitting)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/dzitting/ecommerce-vite](https://github.com/dzitting/ecommerce-vite)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,8 +216,8 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/dzitting/ecommerce-vite
+[contributors-url]: https://github.com/dzitting/ecommerce-vite/graphs/contributors
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/denise-zitting101
 [product-screenshot]: images/screenshot.png
@@ -234,4 +225,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Vite.js]: https://vitejs.dev/logo.svg
+[Vite.js]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+[Vite-url]: https://vitejs.dev/
+[Redux]:https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white
+[Redux-url]: https://redux.js.org/
