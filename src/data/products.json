@@ -1,5 +1,5 @@
 {
-    "products":  [
+    "products": [
         {
             "id": 1,
             "name": "Men's T-Shirt",
@@ -15,12 +15,11 @@
             "amountSold": 0,
             "onSale": false,
             "salePrice": null,
-            "tags": [
-                "T-Shirts",
-                "Mens"
-            ],
+            "tags": ["T-Shirts", "Mens"],
             "inStock": true,
-            "featured": true
+            "featured": true,
+            "colors": ["Black", "White", "Gray"],
+            "sizes": ["S", "M", "L", "XL"]
         },
         {
             "id": 2,
@@ -30,19 +29,18 @@
             "description": "A nice T-Shirt",
             "image": "https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886013_1280.png",
             "rating": {
-                "rate":4,
+                "rate": 4,
                 "count": 100
             },
             "amountAvailable": 100,
             "amountSold": 0,
             "onSale": true,
             "salePrice": 12.97,
-            "tags": [
-                "T-Shirts",
-                "Womens"
-            ],
+            "tags": ["T-Shirts", "Womens"],
             "inStock": true,
-            "featured": true
+            "featured": true,
+            "colors": ["Black", "White", "Pink"],
+            "sizes": ["S", "M", "L"]
         },
         {
             "id": 3,
@@ -59,12 +57,11 @@
             "amountSold": 67,
             "onSale": false,
             "salePrice": null,
-            "tags": [
-                "T-Shirts",
-                "Kids"
-            ],
+            "tags": ["T-Shirts", "Kids"],
             "inStock": true,
-            "featured": true
+            "featured": true,
+            "colors": ["Blue", "Red", "Green"],
+            "sizes": ["2T", "3T", "4T", "5T"]
         },
         {
             "id": 4,
@@ -81,12 +78,11 @@
             "amountSold": 20,
             "onSale": true,
             "salePrice": 39.99,
-            "tags": [
-                "Shoes",
-                "Athletic"
-            ],
+            "tags": ["Shoes", "Athletic"],
             "inStock": true,
-            "featured": false
+            "featured": false,
+            "colors": ["Black", "Blue", "Red"],
+            "sizes": ["7", "8", "9", "10"]
         },
         {
             "id": 5,
@@ -103,12 +99,11 @@
             "amountSold": 10,
             "onSale": false,
             "salePrice": null,
-            "tags": [
-                "Shoes",
-                "Women's"
-            ],
+            "tags": ["Shoes", "Womens"],
             "inStock": true,
-            "featured": true
+            "featured": true,
+            "colors": ["Red", "Black", "Silver"],
+            "sizes": ["6", "7", "8", "9"]
         },
         {
             "id": 6,
@@ -125,12 +120,95 @@
             "amountSold": 15,
             "onSale": true,
             "salePrice": 24.99,
-            "tags": [
-                "Dresses",
-                "Women's"
-            ],
+            "tags": ["Dresses", "Womens", "Formal"],
             "inStock": true,
-            "featured": false
+            "featured": false,
+            "colors": ["Blue", "Yellow", "Red"],
+            "sizes": ["S", "M", "L"]
+        },
+        {
+            "id": 11,
+            "name": "Winter Jacket",
+            "category": "Jackets",
+            "price": 79.99,
+            "description": "Warm and stylish winter jacket for cold days.",
+            "image": "https://images.pexels.com/photos/887898/pexels-photo-887898.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "rating": {
+                "rate": 4.5,
+                "count": 70
+            },
+            "amountAvailable": 35,
+            "amountSold": 10,
+            "onSale": true,
+            "salePrice": 69.99,
+            "tags": ["Jackets", "Winter"],
+            "inStock": true,
+            "featured": true,
+            "colors": ["Black", "Navy", "Gray"],
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 12,
+            "name": "Casual Pants",
+            "category": "Pants",
+            "price": 49.99,
+            "description": "Comfortable and versatile casual pants for everyday wear.",
+            "image": "https://images.pexels.com/photos/4066290/pexels-photo-4066290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "rating": {
+                "rate": 4.3,
+                "count": 80
+            },
+            "amountAvailable": 45,
+            "amountSold": 15,
+            "onSale": false,
+            "salePrice": null,
+            "tags": ["Pants", "Casual"],
+            "inStock": true,
+            "featured": true,
+            "colors": ["Black", "Khaki", "Navy"],
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 13,
+            "name": "Leather Jacket",
+            "category": "Jackets",
+            "price": 89.99,
+            "description": "Classic leather jacket for a timeless look.",
+            "image": "https://images.pexels.com/photos/983497/pexels-photo-983497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "rating": {
+                "rate": 4.7,
+                "count": 65
+            },
+            "amountAvailable": 25,
+            "amountSold": 5,
+            "onSale": false,
+            "salePrice": null,
+            "tags": ["Jackets", "Mens"],
+            "inStock": true,
+            "featured": false,
+            "colors": ["Black", "Brown"],
+            "sizes": ["S", "M", "L", "XL"]
+        },
+        {
+            "id": 14,
+            "name": "Silk Blouse",
+            "category": "Blouses",
+            "price": 59.99,
+            "description": "Elegant silk blouse for a sophisticated look.",
+            "image": "https://images.pexels.com/photos/18504989/pexels-photo-18504989/free-photo-of-young-model-in-white-ruffled-v-neck-blouse-leaning-on-a-sculpture-pedestal.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "rating": {
+                "rate": 4.6,
+                "count": 70
+            },
+            "amountAvailable": 40,
+            "amountSold": 10,
+            "onSale": true,
+            "salePrice": 54.99,
+            "tags": ["Blouses", "Womens"],
+            "inStock": true,
+            "featured": true,
+            "colors": ["White", "Black", "Red"],
+            "sizes": ["S", "M", "L", "XL"]
         }
     ]
 }

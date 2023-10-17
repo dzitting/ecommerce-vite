@@ -1,19 +1,23 @@
 import React from "react";
+import { useNavigate } from "react-router";
+import { useDispatch } from "react-redux";
+import { addItemToCart } from "../store/Cart/cartSlice";
 
-const ResultCard = (props) => {
-  const { result } = props;
-
+const ResultCard = ({result}) => {
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
   return (
     <div
       style={{
         height: "calc(100% / 3)",
         width: "calc(100% / 4)",
-        backgroundColor: "white",
+        backgroundColor: "#a5a5a5",
         padding: ".5rem",
         overflow: "hidden",
       }}
     >
-      <figure
+      <figure 
+      onClick={() => navigate("/products/" + result.id)}
         style={{
           height: "300px",
           width: "100%",
@@ -35,6 +39,7 @@ const ResultCard = (props) => {
         />
       </figure>
       <div
+      onClick={() => navigate("/products/" + result.id)}
         style={{
           display: "flex",
           alignItems: "center",
@@ -62,8 +67,13 @@ const ResultCard = (props) => {
             alt="WISHLIST"
           />
         </figure>
-        <p>{result.price}</p>
-        <button>Add to Cart</button>
+        {result.onSale ? (
+        <div>
+          <p>SALE {result.salePrice}</p>
+          <p><strike>{result.price}</strike></p>
+          </div>) : <p>{result.price}</p>}
+
+        <button onClick={() => dispatch(addItemToCart(result))}>Add to Cart</button>
       </div>
     </div>
   );

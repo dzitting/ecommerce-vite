@@ -2,7 +2,7 @@
 .dropdown {
     display: none;
     position: absolute;
-    background-color: #9898987f; /* Background color for the dropdown menu */
+    background-color: #989898; /* Background color for the dropdown menu */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for a more stylish look */
     padding: 10px;
     list-style: none;

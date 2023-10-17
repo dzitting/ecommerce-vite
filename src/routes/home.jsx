@@ -13,7 +13,7 @@ const Home = () => {
         />
       </figure>
       <div className="home-banner__content">
-        <h1 className="home-banner__title">Lorem Ipsum</h1>
+        <h1 className="home-banner__title">ClothWire</h1>
         <p className="home-banner__subtitle">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi,
           aperiam reprehenderit rerum vel inventore doloremque saepe corporis
