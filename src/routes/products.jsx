@@ -10,7 +10,7 @@ const Products = () => {
     return <Outlet />;
   } else {
     return (
-      <div>
+      <div style={{padding: '2rem 0'}}>
         <h1 style={{ textAlign: "center", color: "white" }}>Products</h1>
         <div className="products"
         >

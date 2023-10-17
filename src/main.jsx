@@ -13,6 +13,8 @@ import { store } from "./store/store";
 import { Provider } from "react-redux";
 import Cart from "./routes/cart.jsx";
 import Featured from "./routes/featured.jsx";
+import About from "./routes/about.jsx";
+import Contact from "./routes/contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,11 +28,11 @@ const router = createBrowserRouter([
       },
       {
         path: "about",
-        element: <h1>About</h1>,
+        element: <About />,
       },
       {
         path: "contact",
-        element: <h1>Contact</h1>,
+        element: <Contact />,
       },
       {
         path: "search",
@@ -63,7 +65,7 @@ const router = createBrowserRouter([
       {
         path: "cart",
         element: <Cart />,
-      }
+      },
     ],
   },
 ]);

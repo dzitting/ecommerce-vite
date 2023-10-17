@@ -15,7 +15,7 @@ const Search = () => {
   
   return (
     <div id="product-results"
-      style={{ display: "flex", height: "100%", flexDirection: "row-reverse" }}
+      style={{ padding:'2rem 0', display: "flex", height: "100%", flexDirection: "row-reverse", minHeight: '80vh' }}
     >
       <p style={{position: 'absolute', top: '5rem', left: '15rem', fontSize: '1.5rem'}}>Displaying results for '{query}'</p>
       <div style={{width: '100%', height: '100%', display: 'flex', justifyContent: 'flex-start', alignItems: 'start', flexDirection: 'row', gap: '1rem', margin: '0 auto'}}>

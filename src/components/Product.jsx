@@ -64,7 +64,7 @@ const Product = () => {
           {product.colors && (
             <select onChange={(e) => setSelectedColor(e.target.value)}>
               Colors:
-              <option value='default'>Color</option>
+              <option value='default' selected disabled>Color</option>
               {product.colors.map((color) => (
                 <option key={color} value={selectedColor}>
                   {color}
@@ -75,7 +75,7 @@ const Product = () => {
           {product.sizes && (
             <select onChange={(e) => setSelectedSize(e.target.value)}>
               Sizes:
-              <option value='default'>
+              <option value='default' selected disabled>
                 Size
               </option>
               {product.sizes.map((size) => (
