@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Outlet } from "react-router";
 import { Form, Link } from "react-router-dom";
@@ -9,9 +9,12 @@ import { useSearchParams } from "react-router-dom";
 import { useNavigate } from "react-router";
 
 function App() {
-  if (window.location.pathname === "/") {
-    navigate('/home');
-  }
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (window.location.pathname === "/") {
+      navigate('/home');
+    }
+  },[])
   const cart = useSelector(selectCart);
   const [searchParams, setSearchParams] = useSearchParams();
   const handleSubmit = (e) => {
